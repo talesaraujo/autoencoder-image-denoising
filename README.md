@@ -20,10 +20,10 @@ Autoencoders (AE) são uma arquitetura de redes neurais artificiais que visam co
 </p>
 
 A tarefa, em suma, é baseada em duas abstrações:
-1. __Encoder__: Esta é a parte da Rede Neural que comprime a entrada em uma representação de espaço latente. Pode ser representado por uma função de codificação \mathit{h = f(x)}
-2. __Decoder__: Esta parte visa reconstruir a entrada a partir da representação de espaço latente. Pode ser representada como \mathit{r = g(h)}
+1. __Encoder__: Esta é a parte da Rede Neural que comprime a entrada em uma representação de espaço latente. Pode ser representado por uma função de codificação h = f(x)
+2. __Decoder__: Esta parte visa reconstruir a entrada a partir da representação de espaço latente. Pode ser representada como r = g(h)
 
-Portanto, de maneira complementar, o autoencoder pode ser descrito por uma função $g(f(x))=r$ \mathit{g(f(x)) = r} onde busca-se \mathit{r} o mais próximo possível da entrada \mathit{x}.
+Portanto, de maneira complementar, o autoencoder pode ser descrito por uma função g(f(x)) = r onde busca-se r o mais próximo possível da entrada x.
 
 ### Requisitos
 - [Conjunto de bibliotecas scipy](https://www.scipy.org/install.html)
